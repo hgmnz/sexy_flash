@@ -1,0 +1,30 @@
+/*
+ * flash styles, sexy_flash plugin
+ */
+
+#flash_notice {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #AFA;
+  border: solid 1px green;
+  width: 90%;
+}
+
+#flash_error {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #FAA;
+  border: solid 1px red;
+  width: 90%;
+}
+
+#flash_warning{
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #FFA;
+  border: solid 1px yellow;
+  width: 90%;
+}

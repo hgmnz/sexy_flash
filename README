@@ -1,0 +1,15 @@
+SexyFlash
+=========
+
+This plugin provides an easy to use helper to display flash messages. It provides styling for flash messages, and scriptaculous effects for extra sexyness.
+
+
+Example
+=======
+
+Use flash notice, info and error as you normally would. Then simply call the helper from your views:
+
+<%= sexy_flash %>
+
+
+Copyright (c) 2008 Harold A. Gimenez, released under the MIT license
