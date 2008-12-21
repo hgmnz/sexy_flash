@@ -6,10 +6,15 @@ This plugin provides an easy to use helper to display flash messages. It provide
 
 Example
 =======
+Add the stylesheet in your layout:
+<%= stylesheet_link_tag "cookbook" %>
 
-Use flash notice, info and error as you normally would. Then simply call the helper from your views:
+
+Use flash notice, warning and error as you normally would. Then simply call the helper from your views:
 
 <%= sexy_flash %>
+
+
 
 
 Copyright (c) 2008 Harold A. Gimenez, released under the MIT license
