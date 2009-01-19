@@ -14,7 +14,23 @@ Use flash notice, warning and error as you normally would. Then simply call the 
 
 <%= sexy_flash %>
 
+Options
+=======
 
+The sexy_flash helper accepts an options hash which overrides the defaults. For example:
 
+<%= sexy_flash :timeout => 2, :duration => 1, :show_effect => "BlindDown", :hide_effect => "BlindUp" %>
 
-Copyright (c) 2008 Harold A. Gimenez, released under the MIT license
+In addition, sometimes you would want to specify whether the flash message options at the time you create the message. You may specify options on your controller, which will override any options you've specified on the sexy_flash helper call in your views. For example:
+
+flash[:error] = 'Dude, you screwed up!', {:timeout => 0} # don't time out.
+
+Contributors
+============
+
+  * Akhil Bansal (http://github.com/bansalakhil): created global options functionality on the sexy_flash view helper.
+
+Licence
+=======
+
+Copyright (c) 2008 Harold A. Gimenez, released under the MIT license.
