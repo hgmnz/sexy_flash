@@ -28,7 +28,7 @@ flash[:error] = 'Dude, you screwed up!', {:timeout => 0} # don't time out.
 Contributors
 ============
 
-  * Akhil Bansal (http://github.com/bansalakhil): created global options functionality on the sexy_flash view helper.
+  * Akhil Bansal ( http://webonrails.com ): created global options functionality on the sexy_flash view helper.
 
 Licence
 =======
